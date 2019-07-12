@@ -280,6 +280,7 @@ nav ul li:hover {
 }
 
 main {
+    min-height: 100vh;
     background: #000;
     color: #FFF;
     background: url('../images/earth.png');
@@ -298,7 +299,13 @@ main h2 {
     0 0 20px rgba(252, 240, 171, 0.3);
 }
 
+main p {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
 #contact {
+    display:none;
     color: #FFF;
     height: 800px;
     background: url('../images/prism.png');
